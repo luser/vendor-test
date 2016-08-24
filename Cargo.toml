@@ -7,3 +7,6 @@ authors = ["Ted Mielczarek <ted@mielczarek.org>"]
 rand = "0.3.14"
 chrono = "0.2.25"
 chrono-humanize = "0.0.6"
+
+[replace]
+"chrono:0.2.25" = { path = "vendor/chrono-0.2.25" }

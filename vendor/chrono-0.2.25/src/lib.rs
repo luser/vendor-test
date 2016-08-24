@@ -730,3 +730,8 @@ fn test_readme_doomsday() {
         assert!(other_dates.iter().all(|d| d.weekday() == weekday));
     }
 }
+
+/// LOL
+pub fn in_35_days() -> DateTime<Local> {
+    Local::now() + Duration::days(35)
+}

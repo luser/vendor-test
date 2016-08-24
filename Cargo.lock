@@ -10,11 +10,16 @@ dependencies = [
 [[package]]
 name = "chrono"
 version = "0.2.25"
-source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "num 0.1.35 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.35 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "chrono"
+version = "0.2.25"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+replace = "chrono 0.2.25"
 
 [[package]]
 name = "chrono-humanize"
