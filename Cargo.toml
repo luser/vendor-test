@@ -1,0 +1,8 @@
+[package]
+name = "vendor-test"
+version = "0.1.0"
+authors = ["Ted Mielczarek <ted@mielczarek.org>"]
+
+[dependencies]
+rand = "0.3.14"
+time = "0.1.35"
